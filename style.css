@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+header,
+footer {
+  background-image: url(header_background.JPG);
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+}
+header {
+  height: 400px;
+}
+footer {
+  height: 96px;
+}
+a {
+  cursor: pointer;
+}
+.title,
+.footer-title {
+  position: absolute;
+  cursor: pointer;
+}
+.title {
+  font-size: 72px;
+  top: 164px;
+  left: 12%;
+  height: 72px;
+  line-height: 80px;
+}
+.footer-title {
+  font-size: 36px;
+  top: 16px;
+  left: 6%;
+  height: 36px;
+  line-height: 40px;
+}
+.title-underline,
+.footer-title-underline {
+  height: 2px;
+  position: absolute;
+  background-color: #000;
+}
+.title-underline {
+  width: 398px;
+  top: 226px;
+  left: 12%;
+}
+.footer-title-underline {
+  width: 198px;
+  top: 47px;
+  left: 6%;
+}
+.navi-wrap,
+.footer-navi-wrap {
+  height: 40px;
+  position: absolute;
+  right: 0;
+  width: fit-content;
+}
+.navi-wrap {
+  bottom: 0;
+}
+.footer-navi-wrap {
+  top: 16px;
+}
+.navi-parent {
+  display: flex;
+  width: 600px;
+}
+.navi {
+  width: 25%;
+  position: relative;
+}
+.navi-content {
+  width: 90%;
+  background-color: rgba(169, 169, 169, 0.6);
+  cursor: pointer;
+}
+.navi-content:hover {
+  background-color: rgba(169, 169, 169, 0.8);
+}
+.navi span {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.navi-underline {
+  height: 1px;
+  width: 86px;
+  position: absolute;
+  top: 22px;
+  left: 26px;
+  background-color: #000;
+}
+.service,
+.works {
+  height: 400px;
+}
+.about {
+  height: 600px;
+}
+.link {
+  height: 408px;
+}
+.service,
+.about {
+  background-color: #fff;
+}
+.works,
+.link {
+  background-color: #f5f5f5;
+}
+.mainTitle {
+  height: 96px;
+  font-size: 40px;
+}
+.mainTitle span {
+  width: fit-content;
+  margin: 0 auto;
+  display: block;
+  font-weight: lighter;
+  padding-top: 24px;
+}
+.element-parent {
+  display: flex;
+  height: 304px;
+  width: 90%;
+  margin: 0 auto;
+}
+.element-content {
+  width: calc( 100% / 3 );
+}
+.element-title {
+  font-size: 24px;
+  display: block;
+  margin: 12px auto;
+  width: fit-content;
+}
+.element-detail {
+  width: 80%;
+  margin: 0 auto;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.works-image img {
+  height: 160px;
+  margin: 16px auto 0;
+  display: block;
+}
+.works-detail {
+  margin: 16px auto 0;
+  width: fit-content;
+}
+.works-detail a {
+  text-decoration: underline;
+  color: #000;
+}
+.about-content {
+  display: flex;
+  margin: 0 auto;
+  height: 480px;
+  width: 90%;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.face-img {
+  height: 100%;
+}
+.about-detail {
+  width: 90%;
+  margin: 0 auto;
+}
+.about-detail span {
+  display: block;
+}
+.about1 {
+  margin: 48px 0 24px;
+}
+.about2 {
+  margin-bottom: 24px;
+}
+.about3,
+.about5 {
+  margin-bottom: 60px;
+}
+.link-parent {
+  height: 264px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 24px;
+}
+.link-content {
+  width: 90%;
+  margin: 0 auto 48px;
+}
+.link-title {
+  font-size: 20px;
+}
+.link-content a {
+  font-size: 20px;
+  text-decoration: none;
+}
