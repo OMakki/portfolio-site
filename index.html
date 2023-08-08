@@ -2,174 +2,133 @@
 <html lang="ja">
   <head>
       <meta charset="utf-8">
-      <title>岡部真希のプロフィール</title>
+      <title>岡部真希のポートフォリオ</title>
       <meta name="viewport" content="width=device-width"/>
       <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <div class="title">
-        <span>Okabe Maki</span>
-      </div>
-      <div class="title-underline"></div>
-      <div class="navi-wrap">
-        <div class="navi-parent">
-          <div class="navi">
-            <div class="navi-content" data-navi="service">
-              <span>▽Service</span>
-            </div>
-            <div class="navi-underline"></div>
-          </div>
-          <div class="navi">
-            <div class="navi-content" data-navi="works">
-              <span>▽Works</span>
-            </div>
-            <div class="navi-underline"></div>
-          </div>
-          <div class="navi">
-            <div class="navi-content" data-navi="about">
-              <span>▽About</span>
-            </div>
-            <div class="navi-underline"></div>
-          </div>
-          <div class="navi">
-            <div class="navi-content" data-navi="link">
-              <span>▽Link</span>
-            </div>
-            <div class="navi-underline"></div>
-          </div>
-        </div>
+      <div class="title-parents">
+        <div id="catchPhrase">プログラミングで、<br>世界と繋がる。</div>
+        <div id="title">Portfolio Of Okabe Maki</div>
       </div>
     </header>
     <main>
-      <div class="service">
-        <div class="mainTitle">
+      <div id="navi-wrap" class="navi-absolute">
+        <div class="navi-content" data-navi="service">
           <span>Service</span>
         </div>
-        <div class="element-parent service-parent">
-          <div class="element-content service-content">
-            <div class="element-title service-title">ホームページ制作</div>
-            <div class="element-detail service-detail">
-              デザイン案をもとに、ユーザーの目線に立った使いやすいサイトをコーディングします。JavaScriptを用いた動きのあるサイトや、レスポンシブ対応のサイトなど様々なサイトを制作いたします。
-            </div>
-          </div>
-          <div class="element-content service-content">
-            <div class="element-title service-title">ホームページ修正・新機能追加</div>
-            <div class="element-detail service-detail">
-              文言変更やバグの修正など、ホームページでのお困りごとに対応いたします。また、UI改修や検索機能などの新機能追加も行い、より使いやすいサイトを作っていきます。
-            </div>
-          </div>
-          <div class="element-content service-content">
-            <div class="element-title service-title">Webアプリ開発</div>
-            <div class="element-detail service-detail">
-              PHPを用いて、ログイン機能や投稿機能などがあるWebアプリを開発いたします。HTMLやJavaScriptによるコーディングだけでは実現できないような高度な機能を持ったサービスを開発することができます。
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="works">
-        <div class="mainTitle">
+        <div class="navi-content" data-navi="works">
           <span>Works</span>
         </div>
-        <div class="element-parent works-parent">
-          <div class="element-content works-content">
-            <div class="element-title works-title">ポートフォリオサイト</div>
-            <div class="works-image">
-              <img src="PFsite_img.jpg" alt="ポートフォリオサイト">
-            </div>
-            <div class="element-detail works-detail">
-              <a class="PFsite">詳しく見る</a>
-            </div>
-          </div>
-          <div class="element-content works-content">
-            <div class="element-title works-title">計算ドリル</div>
-            <div class="works-image">
-              <img src="calc_img.jpg" alt="計算ドリル">
-            </div>
-            <div class="element-detail works-detail">
-              <a href="https://omakki.github.io/calc/drill.html"">詳しく見る</a>
-            </div>
-          </div>
-          <div class="element-content works-content">
-            <div class="element-title works-title">準備中</div>
-            <div class="works-image">
-              <img src="waiting.JPG" alt="準備中">
-            </div>
-            <div class="element-detail works-detail">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="about">
-        <div class="mainTitle">
+        <div class="navi-content" data-navi="about">
           <span>About</span>
         </div>
-        <div class="about-content">
-          <div class="face-img-parent">
-            <img class="face-img" src="about_face_img.JPG"></img>
+        <div class="navi-content" data-navi="link">
+          <span>Link</span>
+        </div>
+      </div>
+      <div id="service">
+        <div id="service-wrap">
+          <div class="mainTitle">
+            <span>Service</span>
           </div>
-          <div class="about-detail-parent">
-            <div class="about-detail">
-              <span class="about1">2002年生まれ、東京都在住。</span>
-              <span class="about2">2022年11月から都内のIT企業でエンジニアとして働いており、2023年8月からフリーランスとしての活動を始めました。</span>
-              <span class="about3">現役大学生でもあり、早稲田で建築を学んでいます。</span>
-              <span class="about4">【スキル】</span>
-              <span class="about5">HTML, CSS, JavaScript(jQuery), PHP, MySQL</span>
-              <span class="about6">実務経験を活かして、読みやすいコードを書くことが得意です。</span>
-              <span class="about7">よろしくお願いします。</span>
+          <div class="element-parent service-parent">
+            <div class="element-content service-content">
+              <div class="element-title service-title">ホームページ制作</div>
+              <img class="service-image" src="service1.jpeg" alt="ホームページ制作">
+              <div class="element-detail service-detail">ユーザー目線に立った使いやすいサイトをコーディングします。JavaScriptによる動きのあるサイトや、レスポンシブ対応のサイトなど様々なサイトを制作いたします。
+              </div>
+            </div>
+            <div class="element-content service-content">
+              <div class="element-title service-title">ホームページ修正・新機能追加</div>
+              <img class="service-image" src="service2.jpeg" alt="ホームページ修正・新機能追加">
+              <div class="element-detail service-detail">
+                文言変更やバグ修正など、ホームページでのお困りごとに対応いたします。また、UI改修や検索機能などの新機能追加も行い、より使いやすいサイトを作っていきます。
+              </div>
+            </div>
+            <div class="element-content service-content">
+              <div class="element-title service-title">Webアプリ開発</div>
+              <img class="service-image" src="service3.jpeg" alt="Webアプリ開発">
+              <div class="element-detail service-detail">
+                PHPを用いてログイン機能や投稿機能を備えたWebアプリを開発します。HTMLやJavaScriptだけでは実現できない高度な機能も実装可能です。
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="link">
-        <div class="mainTitle">
-          <span>Link</span>
-        </div>
-        <div class="link-parent">
-          <div class="link-content">
-            <div class="link-title">▼クラウドワークス　プロフィールページ</div>
-            <a href="https://crowdworks.jp/public/employees/5464157">https://crowdworks.jp/public/employees/5464157</a>
+      <div id="works">
+        <div id="works-wrap">
+          <div class="mainTitle">
+            <span>Works</span>
           </div>
-          <div class="link-content">
-            <div class="link-title">▼ランサーズ　プロフィールページ</div>
-            <a href="https://www.lancers.jp/profile/emmm21?ref=header_menu">https://www.lancers.jp/profile/emmm21?ref=header_menu</a>
+          <div class="element-parent works-parent">
+            <div class="element-content works-content">
+              <div class="element-title works-title">ポートフォリオサイト</div>
+              <img class="works-image" src="PFsite_img.jpg" alt="ポートフォリオサイト">
+              <div class="element-detail works-detail">
+                <a class="PFsite">詳しく見る</a>
+              </div>
+            </div>
+            <div class="element-content works-content">
+              <div class="element-title works-title">計算ドリル</div>
+              <img class="works-image" src="calc_img.jpg" alt="計算ドリル">
+              <div class="element-detail works-detail">
+                <a href="https://omakki.github.io/calc/drill.html">詳しく見る</a>
+              </div>
+            </div>
+            <div class="element-content works-content waiting-content">
+              <div class="element-title works-title">準備中</div>
+              <img class="works-image" src="waiting.JPG" alt="準備中">
+              <div class="element-detail works-detail">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="about">
+        <div id="about-wrap">
+          <div class="mainTitle">
+            <span>About</span>
+          </div>
+          <div class="about-content">
+            <img class="face-img" src="about_face_img.JPG"></img>
+            <div id="about-detail-parent">
+              <div id="about-detail">
+                <span class="name">岡部真希</span>
+                <span>2002年生まれ、東京都在住。出身は静岡県です。</span>
+                <span>現役大学生で、早稲田大学で建築を学んでいます。AIと建築意匠設計の親和性について興味があります。</span>
+                <span>2022年度秋学期を休学し、2022年11月から都内のIT企業でエンジニアとして働いています。</span>
+                <span>企業では、JSやPHPを用いてサービスのバグ改修やUI改修、検索機能などの新機能追加などを行っています。</span>
+                <span>学生のうちに独立して経験を積み大人として成長するため、2023年8月からフリーランスとしての活動を始めました。</span>
+                <span>【スキル】<br>HTML, CSS, JavaScript(jQuery), PHP, MySQL</span>
+<span>実務経験を活かして、読みやすいコードを書くこと、別の人が書いたコードを読むことが得意です。
+よろしくお願いします。</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="link">
+        <div id="link-wrap">
+          <div class="mainTitle">
+            <span>Link</span>
+          </div>
+          <div class="link-parent">
+            <div class="link-content">
+              <div class="link-title">▼クラウドワークス　プロフィールページ</div>
+              <a href="https://crowdworks.jp/public/employees/5464157">https://crowdworks.jp/public/employees/5464157</a>
+            </div>
+            <div class="link-content">
+              <div class="link-title">▼ランサーズ　プロフィールページ</div>
+              <a href="https://www.lancers.jp/profile/emmm21">https://www.lancers.jp/profile/emmm21</a>
+            </div>
           </div>
         </div>
       </div>
     </main>
     <footer>
-      <div class="footer-title">
-        <span>Okabe Maki</span>
-      </div>
-      <div class="footer-title-underline"></div>
-      <div class="footer-navi-wrap">
-        <div class="navi-parent">
-          <div class="navi">
-            <div class="navi-content" data-navi="service">
-              <span>△Service</span>
-            </div>
-            <div class="navi-underline"></div>
-          </div>
-          <div class="navi">
-            <div class="navi-content" data-navi="works">
-              <span>△Works</span>
-            </div>
-            <div class="navi-underline"></div>
-          </div>
-          <div class="navi">
-            <div class="navi-content" data-navi="about">
-              <span>△About</span>
-            </div>
-            <div class="navi-underline"></div>
-          </div>
-          <div class="navi">
-            <div class="navi-content" data-navi="link">
-              <span>△Link</span>
-            </div>
-            <div class="navi-underline"></div>
-          </div>
-        </div>
-      </div>
+      <div id="footer-title">Portfolio Of Okabe Maki</div>
     </footer>
   </body>  
 </html>
