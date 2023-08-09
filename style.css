@@ -193,6 +193,7 @@ a {
 .works-image {
   height: 160px;
   width: auto;
+  object-fit: contain;
   margin: 16px auto 0;
   display: block;
 }
@@ -218,8 +219,8 @@ a {
   word-wrap: break-word;
 }
 .face-img {
-  height: 100%;
-  width: auto;
+  height: 480px;
+  width: 413px;
 }
 #about-detail-parent {
   width: 100%;
@@ -291,7 +292,8 @@ a {
     width: 50%;
   }
   .face-img {
-    height: 88%;
+    height: 422px;
+    width: 364px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -323,7 +325,8 @@ a {
     height: 800px;
   }
   .face-img {
-    height: 80%;
+    height: 384px;
+    width: 331px;
   }
 }
 @media screen and (max-width: 750px) {
@@ -353,6 +356,7 @@ a {
   .face-img {
     display: block;
     height: 600px;
+    width: 517px;
     width: fit-content;
     margin: 0 auto;
   }
@@ -415,6 +419,7 @@ a {
   }
   .face-img {
     height: 520px;
+    width: 448px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -439,6 +444,7 @@ a {
   }
   .face-img {
     height: 440px;
+    width: 379px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -460,6 +466,7 @@ a {
   }
   .face-img {
     height: 360px;
+    width: 310px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -522,6 +529,7 @@ a {
   }
   .face-img {
     height: 300px;
+    width: 258px;
   }
 }
 @media screen and (max-width: 300px) {
