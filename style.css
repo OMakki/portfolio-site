@@ -50,7 +50,7 @@ a {
 #catchPhrase {
   font-size: 48px; 
   line-height: 48px;
-  width: 772px;
+  width: 800px;
   padding-top: 3px;
 }
 #catchPhrase br {
@@ -60,7 +60,7 @@ a {
 #footer-title {
   font-size: 32px;
   line-height: 32px;
-  width: 364px;
+  width: 400px;
   padding-top: 2px;
 }
 #footer-title {
@@ -189,6 +189,7 @@ a {
 }
 .works-image {
   height: 160px;
+  width: auto;
   margin: 16px auto 0;
   display: block;
 }
@@ -209,6 +210,7 @@ a {
 }
 .face-img {
   height: 100%;
+  width: auto;
 }
 #about-detail-parent {
   width: 100%;
@@ -242,6 +244,11 @@ a {
   text-decoration: none;
   white-space: normal;
   word-wrap: break-word;
+}
+@media screen and (max-width: 1280px) {
+  #about-detail {
+    margin-top: 0!important;
+  }
 }
 @media screen and (max-width: 1150px) {
   .service-title {
@@ -279,26 +286,26 @@ a {
   }
 }
 @media screen and (max-width: 900px) {
-  #about {
-    height: 720px;
-  }
-}
-@media screen and (max-width: 850px) {
   #catchPhrase,
   #title,
   #footer-title {
     padding-left: 36px;
   }
+  #about {
+    height: 720px;
+  }
+}
+@media screen and (max-width: 850px) {
   #catchPhrase {
     font-size: 42px; 
     line-height: 42px;
-    width: 670px;
+    width: 700px;
   }
   #title,
   #footer-title {
     font-size: 28px;
     line-height: 28px;
-    width: 320px;
+    width: 340px;
   }
   #service {
     height: 940px;
@@ -319,7 +326,7 @@ a {
   #catchPhrase {
     font-size: 36px;
     line-height: 36px;
-    width: 574px;
+    width: 600px;
   }
   #service {
     height: 960px;
@@ -365,6 +372,11 @@ a {
   #footer-title {
     padding-left: 16px;
   }
+  #catchPhrase {
+    font-size: 34px;
+    line-height: 34px;
+    width: 560px;
+  }
   #service {
     height:1320px;
   }
@@ -381,13 +393,13 @@ a {
   #catchPhrase {
     font-size: 32px;
     line-height: 32px;
-    width: 510px;
+    width: 530px;
   }
   #title,
   #footer-title {
     font-size: 24px;
     line-height: 24px;
-    width: 280px;
+    width: 300px;
   }
   .service-content {
     width: 85%;
@@ -400,7 +412,7 @@ a {
   #catchPhrase {
     font-size: 40px;
     line-height: 40px;
-    width: 358px;
+    width: 370px;
   }
   #catchPhrase br {
     display: inline;
@@ -449,7 +461,7 @@ a {
   #catchPhrase {
     font-size: 36px;
     line-height: 36px;
-    width: 322px;
+    width: 332px;
   }
   #service {
     height: 1400px;
@@ -468,13 +480,13 @@ a {
   #catchPhrase {
     font-size: 30px;
     line-height: 30px;
-    width: 268px;
+    width: 274px;
   }
   #title, 
   #footer-title {
     font-size: 22px;
     line-height: 22px;
-    width: 256px;
+    width: 264px;
   }
   #navi-wrap {
     width: 280px;
@@ -507,14 +519,14 @@ a {
   #catchPhrase {
     font-size: 28px;
     line-height: 28px;
-    width: 251px;
+    width: 260px;
     padding-top: 2px;
     padding-bottom: 2px;
   }
   #title, #footer-title {
     font-size: 20px;
     line-height: 20px;
-    width: 232px;
+    width: 240px;
   }
   #navi-wrap {
     width: 270px;
