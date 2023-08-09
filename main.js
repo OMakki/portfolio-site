@@ -22,14 +22,6 @@ $(function () {
     $('#about-detail').css('margin-top', aboutDetailMarginTop);
   }
 
-  setTimeout(function(){
-    $('#catchPhrase').css('opacity', 1).animate({'left': 0}, 2000);
-  }, 1000);
-
-  setTimeout(function(){
-    $('#title').css('opacity', 1).animate({'left': 0}, 2000);
-  }, 3000);
-
   $(window).scroll(function() {
     let scroll = $(this).scrollTop() + windowHeight;
     let serviceTop = $('#service').offset().top;
@@ -52,6 +44,15 @@ $(function () {
     } else {
       $('#navi-wrap').removeClass('navi-absolute').addClass('navi-fixed');
     }  
+  });
+
+  $(window).on('load', function() {
+    setTimeout(function(){
+      $('#catchPhrase').css('opacity', 1).animate({'left': 0}, 2000, 'swing');
+    }, 1000);
+    setTimeout(function(){
+      $('#title').css('opacity', 1).animate({'left': 0}, 2000, 'swing');
+    }, 3000);
   });
 
   // Worksのポートフォリオサイトのリンククリック時にページをリロード
