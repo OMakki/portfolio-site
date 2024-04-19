@@ -201,9 +201,12 @@ a {
   width: 90%;
   margin: 0 auto;
 }
-#about-detail span {
+#about-detail span:not(.attention) {
   display: block;
   margin-bottom: 16px;
+}
+#about-detail .attention {
+  font-size: 12px;
 }
 #about-detail .name {
   font-size: 24px;
@@ -287,7 +290,7 @@ a {
     padding-left: 36px;
   }
   #about {
-    height: 720px;
+    height: 800px;
   }
 }
 @media screen and (max-width: 850px) {
@@ -315,7 +318,7 @@ a {
     font-size: 14px;
   }
   #about {
-    height: 800px;
+    height: 880px;
   }
   .face-img {
     height: 384px;
@@ -595,6 +598,9 @@ a {
   }
   .works-parent {
     height: 810px;
+  }
+  #about {
+    height: 1350px;
   }
   .link-parent {
     padding: 16px;
